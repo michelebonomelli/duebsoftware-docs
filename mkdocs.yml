@@ -14,7 +14,7 @@ copyright: '&copy;DueB Software, 2014-2026'
 theme:
   # logo: assets/logo.png
   name: material
-  custom_dir: 'theme/'
+  custom_dir: overrides
   language: 'it'
   palette:
     - scheme: default
@@ -73,3 +73,4 @@ nav:
 extra:
   version:
     provider: mike
+    
