@@ -1,4 +1,4 @@
-name: CI Build Prod Docu
+name: CI Build Release
 on:
   release:
     types: [published]
