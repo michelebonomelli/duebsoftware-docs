@@ -4,8 +4,8 @@
 
 | Informazioni |  | 
 | --- | --- | 
-| Data di rilascio | 22/09/2026 | 
-| Versioni *Localizzazioni Stampi* associate | 2.1.15 (Beta) |
+| Data di rilascio | 25/09/2026 | 
+| Versioni *Localizzazioni Stampi* associate | 2.1.16 (Beta) |
 
 #### Interventi evolutivi
 - Introdotte le informazioni *Richiesto entro data* e *Note sul rientro* nella movimentazione officina

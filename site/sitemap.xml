@@ -1,51 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://wiki-g7fjh2emdhcndcfx.italynorth-01.azurewebsites.net/</loc>
-         <lastmod>2026-09-21</lastmod>
+         <loc>https://michelebonomelli.github.io/duebsoftware-docs/</loc>
+         <lastmod>2026-09-24</lastmod>
     </url>
     <url>
-         <loc>https://wiki-g7fjh2emdhcndcfx.italynorth-01.azurewebsites.net/about/contacts/</loc>
-         <lastmod>2026-09-21</lastmod>
+         <loc>https://michelebonomelli.github.io/duebsoftware-docs/about/contacts/</loc>
+         <lastmod>2026-09-24</lastmod>
     </url>
     <url>
-         <loc>https://wiki-g7fjh2emdhcndcfx.italynorth-01.azurewebsites.net/about/privacy/ls/</loc>
-         <lastmod>2026-09-21</lastmod>
+         <loc>https://michelebonomelli.github.io/duebsoftware-docs/about/privacy/ls/</loc>
+         <lastmod>2026-09-24</lastmod>
     </url>
     <url>
-         <loc>https://wiki-g7fjh2emdhcndcfx.italynorth-01.azurewebsites.net/products/dbstampi/</loc>
-         <lastmod>2026-09-21</lastmod>
+         <loc>https://michelebonomelli.github.io/duebsoftware-docs/products/dbstampi/</loc>
+         <lastmod>2026-09-24</lastmod>
     </url>
     <url>
-         <loc>https://wiki-g7fjh2emdhcndcfx.italynorth-01.azurewebsites.net/products/dbstampi/changelog/</loc>
-         <lastmod>2026-09-21</lastmod>
+         <loc>https://michelebonomelli.github.io/duebsoftware-docs/products/dbstampi/changelog/</loc>
+         <lastmod>2026-09-24</lastmod>
     </url>
     <url>
-         <loc>https://wiki-g7fjh2emdhcndcfx.italynorth-01.azurewebsites.net/products/dbstampi/api/</loc>
-         <lastmod>2026-09-21</lastmod>
+         <loc>https://michelebonomelli.github.io/duebsoftware-docs/products/dbstampi/api/</loc>
+         <lastmod>2026-09-24</lastmod>
     </url>
     <url>
-         <loc>https://wiki-g7fjh2emdhcndcfx.italynorth-01.azurewebsites.net/products/dbstampi/db/</loc>
-         <lastmod>2026-09-21</lastmod>
+         <loc>https://michelebonomelli.github.io/duebsoftware-docs/products/dbstampi/db/</loc>
+         <lastmod>2026-09-24</lastmod>
     </url>
     <url>
-         <loc>https://wiki-g7fjh2emdhcndcfx.italynorth-01.azurewebsites.net/products/dbstampi/dm/</loc>
-         <lastmod>2026-09-21</lastmod>
+         <loc>https://michelebonomelli.github.io/duebsoftware-docs/products/dbstampi/dm/</loc>
+         <lastmod>2026-09-24</lastmod>
     </url>
     <url>
-         <loc>https://wiki-g7fjh2emdhcndcfx.italynorth-01.azurewebsites.net/products/dbstampi/ml/</loc>
-         <lastmod>2026-09-21</lastmod>
+         <loc>https://michelebonomelli.github.io/duebsoftware-docs/products/dbstampi/ml/</loc>
+         <lastmod>2026-09-24</lastmod>
     </url>
     <url>
-         <loc>https://wiki-g7fjh2emdhcndcfx.italynorth-01.azurewebsites.net/products/dbstampi/ml/usermanual/</loc>
-         <lastmod>2026-09-21</lastmod>
+         <loc>https://michelebonomelli.github.io/duebsoftware-docs/products/dbstampi/ml/usermanual/</loc>
+         <lastmod>2026-09-24</lastmod>
     </url>
     <url>
-         <loc>https://wiki-g7fjh2emdhcndcfx.italynorth-01.azurewebsites.net/products/dbstampi/wa/</loc>
-         <lastmod>2026-09-21</lastmod>
+         <loc>https://michelebonomelli.github.io/duebsoftware-docs/products/dbstampi/um/stampe_statiche/</loc>
+         <lastmod>2026-09-24</lastmod>
     </url>
     <url>
-         <loc>https://wiki-g7fjh2emdhcndcfx.italynorth-01.azurewebsites.net/products/dbstampi/ws/</loc>
-         <lastmod>2026-09-21</lastmod>
+         <loc>https://michelebonomelli.github.io/duebsoftware-docs/products/dbstampi/wa/</loc>
+         <lastmod>2026-09-24</lastmod>
+    </url>
+    <url>
+         <loc>https://michelebonomelli.github.io/duebsoftware-docs/products/dbstampi/ws/</loc>
+         <lastmod>2026-09-24</lastmod>
     </url>
 </urlset>
