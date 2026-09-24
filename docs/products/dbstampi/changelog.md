@@ -17,6 +17,7 @@
 	- Vengono proposte nei report:
 		- REP00003 - Distinta di movimentazione in Officina
 		- REP00016 - Report stampi in officina
+- Aggiornato il motore di generazione dei report
 
 #### Database
 | Tabella | Campi | Intervento |
