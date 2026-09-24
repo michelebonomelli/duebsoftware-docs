@@ -261,4 +261,4 @@ __pycache__/
 *.pyc
 
 # Output of mkdocs build
-site/
+# site/

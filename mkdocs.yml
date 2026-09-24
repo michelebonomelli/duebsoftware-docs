@@ -2,7 +2,10 @@
 site_name: 'DueB Software'
 site_description: 'Sito documentale di DueB Software'
 site_author: 'Michele Bonomelli'
-site_url: 'https://wiki-g7fjh2emdhcndcfx.italynorth-01.azurewebsites.net/'
+site_url: https://github.com/michelebonomelli/duebsoftware-docs/
+
+repo_name: michelebonomelli/duebsoftware-docs
+repo_url: https://github.com/michelebonomelli/duebsoftware-docs
 
 # Copyright
 copyright: '&copy;DueB Software, 2014-2026'
@@ -35,6 +38,7 @@ theme:
 
 plugins:
   - search
+  - mike
 
 extra_css:
   - assets/css/extra.css
