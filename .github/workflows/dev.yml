@@ -1,4 +1,4 @@
-name: CI Build Dev
+name: pages-mike-dev
 on:
   push:
     branches:

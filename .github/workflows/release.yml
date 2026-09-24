@@ -1,4 +1,4 @@
-name: CI Build Release
+name: pages-mike-release
 on:
   release:
     types: [published]
@@ -20,7 +20,7 @@ jobs:
           pip install mike
       - name: Setup Docs Deploy
         run: |
-          git config --global user.name "Example Docu Deploy"
-          git config --global user.email "docs.deploy@eleni.dev"
+          git config --global user.name "DueB Software"
+          git config --global user.email "admin@duebsoftware.it"
       - name: Build Docs Site
         run: mike deploy --push --update-aliases ${{ github.event.release.tag_name }} latest
