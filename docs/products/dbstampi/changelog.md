@@ -1,6 +1,6 @@
 # DbStampi: ChangeLog
-<!-- 
-### 2.8.26265.2
+ 
+### Dev
 
 | Informazioni |  | 
 | --- | --- | 
@@ -14,13 +14,16 @@
 	- Vengono proposte nelle e-mail:
 		- Movimentazione verso officina
 		- Elenco stampi in officina
+	- Vengono proposte nei report:
+		- REP00003 - Distinta di movimentazione in Officina
+		- REP00016 - Report stampi in officina
 
 #### Database
 | Tabella | Campi | Intervento |
 | --- | --- | --- |
 | OffMovimenti | Richiesto entro data</br>Note sul rientro | Nuovi campi |
 
---- --> 
+--- 
 ### 2.8
 
 | Informazioni |  | 
