@@ -1,5 +1,5 @@
 # DbStampi: ChangeLog
-
+<!-- 
 ### 2.8.26265.2
 
 | Informazioni |  | 
@@ -20,8 +20,7 @@
 | --- | --- | --- |
 | OffMovimenti | Richiesto entro data</br>Note sul rientro | Nuovi campi |
 
----
-
+--- --> 
 ### 2.8
 
 | Informazioni |  | 
