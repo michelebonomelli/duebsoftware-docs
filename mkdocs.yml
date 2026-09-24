@@ -1,0 +1,71 @@
+# Site info
+site_name: 'DueB Software'
+site_description: 'Sito documentale di DueB Software'
+site_author: 'Michele Bonomelli'
+site_url: 'https://wiki-g7fjh2emdhcndcfx.italynorth-01.azurewebsites.net/'
+
+# Copyright
+copyright: '&copy;DueB Software, 2014-2026'
+
+# Theme
+theme:
+  # logo: assets/logo.png
+  name: material
+  custom_dir: 'theme/'
+  language: 'it'
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Attiva dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Attiva light mode
+  text: 'Roboto'
+  code: 'Roboto Mono'
+  features:
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+
+plugins:
+  - search
+
+extra_css:
+  - assets/css/extra.css
+
+extra_javascript:
+  - assets/js/extra.js
+    
+# Navigation
+nav:
+  - Home: index.md
+  #- Prodotti: 
+  - DbStampi: 
+    - products/dbstampi/index.md
+    # - Panoramica: 'products/dbstampi/index.md'
+    #  - Database: 'products/dbstampi/db/index.md'
+    #  - Applicazioni:
+    #    - DbManager: 'products/dbstampi/dm/index.md'
+    #    - API: 'products/dbstampi/api/index.md'
+    #    - 'Localizzazione Stampi': 'products/dbstampi/ml/index.md'
+    #    - Servizi Windows: 'products/dbstampi/ws/index.md'
+    #    - Agenti: 'products/dbstampi/wa/index.md'
+    - Changelog: 'products/dbstampi/changelog.md'
+    - Manuali:
+      - 'Stampe statiche' : 'products/dbstampi/um/stampe_statiche.md'
+      - 'Localizzazione Stampi': 'products/dbstampi/ml/usermanual.md'
+  #- About: 
+  - Contatti: 'about/contacts.md'
+  #  - Privacy:     
+  #    - 'Localizzazione Stampi': 'about/privacy/ls.md'
+
+# Extra
+extra:
+  version:
+    provider: mike

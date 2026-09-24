@@ -1,0 +1,65 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  vmImage: 'windows-latest'
+
+steps:
+
+# Install mkdocs
+- script: |
+   pip3 install mkdocs
+   pip3 install mkdocs-material
+  displayName: 'Install mkdocs'
+
+# Build main site
+- script: |
+   mkdocs build
+  displayName: 'Build site: Default'
+
+# Build LS (User Manual) site
+- bash: |
+   mkdir _ml
+   mkdir _ml/docs
+   mkdir _ml/docs/_css
+   mkdir _ml/docs/_js
+   mkdir _ml/docs/_img
+   mkdir _ml/theme
+   cp -r docs/_css/* _ml/docs/_css
+   cp -r docs/_js/* _ml/docs/_js
+   cp -r theme/* _ml/theme
+   cp -r docs/products/dbstampi/ml/_img/* _ml/docs/_img
+   cp docs/products/dbstampi/ml/usermanual.md _ml/docs/index.md
+   cp mkdocs-ml.yml _ml   
+   mkdocs build -f _ml/mkdocs-ml.yml   
+   mkdir site/um
+   mkdir site/um/ml
+   cp -r _ml/site/* site/um/ml
+  displayName: 'Build site: Localizzazione Stampi (User Manual)'
+
+# Zip artifacts
+- task: ArchiveFiles@2
+  displayName: 'Zip artifacts'
+  inputs:
+    rootFolderOrFile: '$(System.DefaultWorkingDirectory)/site'
+    includeRootFolder: false
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/site-$(Build.BuildNumber).zip'
+    replaceExistingArchive: true
+  
+# Publish artifacts
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish artifacts'
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
+
+
+    
+

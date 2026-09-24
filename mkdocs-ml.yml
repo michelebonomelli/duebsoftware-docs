@@ -1,0 +1,30 @@
+# Site info
+site_name: 'Localizzazione Stampi'
+site_description: 'Manuale utente dell''applicazione Localizzazione Stampi'
+site_author: 'Michele Bonomelli'
+site_url: 'https://duebsoftware.it/um/ml'
+
+# Copyright
+copyright: '&copy;DueB Software, 2014-2019'
+
+# Theme
+theme:
+  name: 'material'
+  custom_dir: 'theme/'
+  language: 'it'
+  palette:
+    primary: 'white'
+    accent: 'deep purple'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+extra_css:
+  - _css/extra.css
+    
+extra_javascript:
+  - _js/extra.js
+    
+# Navigation
+nav:
+  - 'Manuale utente': 'index.md'

@@ -1,0 +1,5 @@
+- Aggiornare pagina privacy
+
+- Completare changelog dbstampi
+
+- Rivedere e completare user manual LS
