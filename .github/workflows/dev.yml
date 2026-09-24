@@ -26,3 +26,4 @@ jobs:
       - name: Build Docs Site
         run: |
           mike deploy --push --update-aliases dev latest
+          mike set-default latest --push
