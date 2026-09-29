@@ -1,11 +1,11 @@
 # DbStampi: ChangeLog
  
-### dev
+### 2.8.26272.2
 
 | Informazioni |  | 
 | --- | --- | 
-| Data di rilascio | 25/09/2026 | 
-| Versioni *Localizzazioni Stampi* associate | 2.1.16 (Beta) |
+| Data di rilascio | 29/09/2026 | 
+| Versioni *Localizzazioni Stampi* associate | 2.1.18</br>2.1.17 (Beta) |
 
 #### Interventi evolutivi
 - Introdotte le informazioni *Richiesto entro data* e *Note sul rientro* nella movimentazione officina
